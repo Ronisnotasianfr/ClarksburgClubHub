@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4CAF50; /* Green theme */
+  color: white;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+#search-bar,
+#filter-dropdown {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#search-bar {
+  width: 200px;
+}
+
+#filter-dropdown {
+  background-color: white;
+}
+
+/* Table Styles */
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #4CAF50; /* Green theme */
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+thead th:hover {
+  cursor: pointer;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternating row colors */
+}
+
+tbody tr:hover {
+  background-color: #ddd; /* Highlight on hover */
+}
+
+td, th {
+  padding: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50; /* Green theme */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+}

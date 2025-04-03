@@ -1,0 +1,22 @@
+
+#dark-mode-toggle {
+    background-color: #333; /* Dark button for toggle */
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #333; /* Dark background */
+    color: white; /* Light text color */
+  }
+  
+  body.dark-mode header,
+  body.dark-mode thead th,
+  body.dark-mode button {
+    background-color: #555; /* Darker elements in dark mode */
+  }
+  
+  body.dark-mode tbody tr:nth-child(even) {
+      background-color:#444; 
+  }
+  
+  
